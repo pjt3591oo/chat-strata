@@ -1,0 +1,32 @@
+// Project OMO config. Closest file wins over ~/.omo/omo.jsonc.
+// All model chains pinned to the local strata server (127.0.0.1:8080).
+// The global config's openai/* and github-copilot/* chains are unavailable here,
+// and ollama (localhost:11434) is down - so every agent/category is pinned explicitly.
+{
+  "[opencode]": {
+    "agents": {
+      "sisyphus": { "models": ["strata/qwen3.8-flash-next"] },
+      "hephaestus": { "models": ["strata/qwen3.8-flash-next"] },
+      "oracle": { "models": ["strata/qwen3.8-flash-next"] },
+      "librarian": { "models": ["strata/qwen3.8-flash-next"] },
+      "explore": { "models": ["strata/qwen3.8-flash-next"] },
+      "multimodal-looker": { "models": ["strata/qwen3.8-flash-next"] },
+      "prometheus": { "models": ["strata/qwen3.8-flash-next"] },
+      "metis": { "models": ["strata/qwen3.8-flash-next"] },
+      "momus": { "models": ["strata/qwen3.8-flash-next"] },
+      "atlas": { "models": ["strata/qwen3.8-flash-next"] },
+      "sisyphus-junior": { "models": ["strata/qwen3.8-flash-next"] }
+    },
+    "categories": {
+      "visual-engineering": { "models": ["strata/qwen3.8-flash-next"] },
+      "ultrabrain": { "models": ["strata/qwen3.8-flash-next"] },
+      "deep-low": { "models": ["strata/qwen3.8-flash-next"] },
+      "deep-high": { "models": ["strata/qwen3.8-flash-next"] },
+      "artistry": { "models": ["strata/qwen3.8-flash-next"] },
+      "quick": { "models": ["strata/qwen3.8-flash-next"] },
+      "unspecified-low": { "models": ["strata/qwen3.8-flash-next"] },
+      "unspecified-high": { "models": ["strata/qwen3.8-flash-next"] },
+      "writing": { "models": ["strata/qwen3.8-flash-next"] }
+    }
+  }
+}

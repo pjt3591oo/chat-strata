@@ -1,0 +1,22 @@
+/* Motion primitives for the chat UI (see DESIGN.md §5). GPU-composited only. */
+
+@keyframes chat-rise {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.chat-rise {
+  animation: chat-rise 150ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chat-rise {
+    animation: none;
+  }
+}

@@ -1,0 +1,5 @@
+Total messages: 3 (Errors: 2, Warnings: 0)
+Returning 2 messages for level "error"
+
+[ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=pFQcdBTaZEoK3NvhAmQJD' failed: Error during WebSocket handshake: Unexpected response code: 400 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_14zvornz047l2._.js:16398
+[ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=pFQcdBTaZEoK3NvhAmQJD' failed: Error during WebSocket handshake: Unexpected response code: 400 @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_14zvornz047l2._.js:16398

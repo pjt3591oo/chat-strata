@@ -1,0 +1,16 @@
+- main [ref=f1e3]:
+  - heading "그룹 채팅 참여" [level=1] [ref=f1e4]
+  - paragraph [ref=f1e5]: 닉네임과 방만 고르면 바로 대화에 참여할 수 있어요.
+  - generic [ref=f1e6]:
+    - generic [ref=f1e7]:
+      - generic [ref=f1e8]: 닉네임
+      - textbox "닉네임" [ref=f1e9]:
+        - /placeholder: "예: 나그네"
+    - generic [ref=f1e10]:
+      - generic [ref=f1e11]: 방
+      - textbox "방" [ref=f1e12]:
+        - /placeholder: 새 방 이름을 입력하거나 아래에서 선택하세요
+      - generic [ref=f1e13]:
+        - text: 기존 방
+        - paragraph [ref=f1e14]: 방 목록을 불러오는 중…
+    - button "입장하기" [ref=f1e15]
